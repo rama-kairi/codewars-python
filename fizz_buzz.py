@@ -20,3 +20,10 @@ def fizz_buzz(n: int) -> list:
 
 if __name__ == "__main__":
     print(fizz_buzz(15))
+
+
+def fizz_buzz_new(n: int) -> list:
+    return [
+        "Fizz" * (n % 3 == 0) + "Buzz" * (n % 5 == 0) or str(n)
+        for n in range(1, n + 1)
+    ]
