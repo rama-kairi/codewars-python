@@ -1,4 +1,10 @@
 {
   "editor.defaultFormatter": "ms-python.python",
-  "cSpell.words": ["fizzbuzz", "kababize", "sheeps", "tribonacci"]
+  "cSpell.words": [
+    "collatz",
+    "fizzbuzz",
+    "kababize",
+    "sheeps",
+    "tribonacci"
+  ]
 }
